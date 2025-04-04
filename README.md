@@ -18,8 +18,13 @@
 
 
 
+Open http://localhost:3000 in your browser to view the result.
 
-📦 Prerequisites
-Make sure you have Node.js and the Angular CLI installed globally:
+You can start editing the page by modifying pages/index.js. The app auto-updates as you edit.
 
-npm install -g @angular/cli
+📡 API Routes
+API routes live in the pages/api directory and are mapped to /api/*. For example:
+
+http://localhost:3000/api/hello → pages/api/hello.js
+
+Learn more about API routes here.
