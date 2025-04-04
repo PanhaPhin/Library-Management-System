@@ -20,26 +20,6 @@
 
 
 📦 Prerequisites
-Make sure you have the Angular CLI installed:
+Make sure you have Node.js and the Angular CLI installed globally:
 
-bash
-Copy
-Edit
 npm install -g @angular/cli
-📁 Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-📥 Install Dependencies
-bash
-Copy
-Edit
-npm install
-▶️ Run the Development Server
-bash
-Copy
-Edit
-ng serve
-Navigate to http://localhost:4200/ in your browser. The app will automatically reload if you change any of the source files.
