@@ -14,3 +14,32 @@
 7. Go to UI folder and open in Visual Studio Code.
 8. Run npm install, and then ng serve
 9. Project will be running.
+
+
+
+
+
+📦 Prerequisites
+Make sure you have the Angular CLI installed:
+
+bash
+Copy
+Edit
+npm install -g @angular/cli
+📁 Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+📥 Install Dependencies
+bash
+Copy
+Edit
+npm install
+▶️ Run the Development Server
+bash
+Copy
+Edit
+ng serve
+Navigate to http://localhost:4200/ in your browser. The app will automatically reload if you change any of the source files.
