@@ -95,6 +95,31 @@ A robust, full-featured Library Management System built with **Angular 17** (Fro
 ---
 
 ## 🔧 Backend Setup
+```bash
+
+cd server/LibraryManagement.API
+
+# Apply EF Core migrations
+dotnet ef database update
+
+# Run the API
+dotnet run
+
+---
+
+## 🧪 Testing
+## Frontend
+
+```bash
+ng test
+
+# Backend
+```bash
+dotnet test
+
+---
+## 🔧 Backend Setup
+```bash
 
 cd server/LibraryManagement.API
 
@@ -109,12 +134,14 @@ dotnet run
 ## 🌐 Frontend Setup
 
 ### Prerequisites
-
+```bash
 cd client
 npm install
 ng serve
 
 ---
+
+
 
 
 ### 📥 Clone the Repository
