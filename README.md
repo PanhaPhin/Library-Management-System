@@ -28,3 +28,26 @@ API routes live in the pages/api directory and are mapped to /api/*. For example
 http://localhost:3000/api/hello → pages/api/hello.js
 
 Learn more about API routes here.
+
+
+src/
+│
+├── app/                 # Core app logic and features
+│   ├── components/      # Reusable UI components
+│   ├── services/        # Services for business logic
+│   ├── models/          # Interfaces & models
+│   └── app.module.ts    # Root module
+│
+├── assets/              # Static assets (images, styles, etc.)
+├── environments/        # Environment-specific settings
+└── index.html           # Entry point HTML
+
+
+
+Prerequisites
+Node.js (v16 or higher recommended)
+
+Angular CLI
+
+npm install -g @angular/cli
+npm install
