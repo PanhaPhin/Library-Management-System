@@ -32,3 +32,63 @@ Learn more about API routes here.
 
 
 
+# 🚀 Angular Enterprise Starter
+
+A scalable, maintainable, and production-ready Angular application template following best practices in architecture, performance, and code quality.
+
+---
+
+## 📌 Table of Contents
+
+- [🧩 Features](#-features)
+- [⚙️ Installation](#️-installation)
+- [📂 Project Structure](#-project-structure)
+- [💻 Available Scripts](#-available-scripts)
+- [🌐 Environment Config](#-environment-config)
+- [🧪 Testing](#-testing)
+- [🚀 Build & Deployment](#-build--deployment)
+- [🙌 Contributing](#-contributing)
+- [📄 License](#-license)
+
+---
+
+## 🧩 Features
+
+- ✅ Angular 17+ with Angular CLI
+- 🧱 Clean Modular Architecture (Core, Shared, Features)
+- 🔌 REST API Integration using `HttpClient`
+- 🛡️ Route Guards & Interceptors
+- 🎨 SCSS Styling
+- 🧪 Jasmine + Karma Unit Testing
+- 🔍 Linting with ESLint + Prettier
+- 🚀 Optimized Production Builds
+- 🌍 Environment Configuration Support
+
+---
+
+## ⚙️ Installation
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v16+)
+- [Angular CLI](https://angular.io/cli)
+
+### Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Navigate to the project directory
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Run the application
+ng serve
+
+
+
+
+
