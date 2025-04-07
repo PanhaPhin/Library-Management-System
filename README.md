@@ -32,63 +32,105 @@ Learn more about API routes here.
 
 
 
-# 🚀 Angular Enterprise Starter
+# 📚 Full Stack Library Management System
 
-A scalable, maintainable, and production-ready Angular application template following best practices in architecture, performance, and code quality.
-
----
-
-## 📌 Table of Contents
-
-- [🧩 Features](#-features)
-- [⚙️ Installation](#️-installation)
-- [📂 Project Structure](#-project-structure)
-- [💻 Available Scripts](#-available-scripts)
-- [🌐 Environment Config](#-environment-config)
-- [🧪 Testing](#-testing)
-- [🚀 Build & Deployment](#-build--deployment)
-- [🙌 Contributing](#-contributing)
-- [📄 License](#-license)
+A robust, full-featured Library Management System built with **Angular 17** (Frontend) and **.NET 8 Web API** (Backend). This full-stack application is designed for scalability, performance, and maintainability using modern development best practices.
 
 ---
 
-## 🧩 Features
+## 🚀 Tech Stack
 
-- ✅ Angular 17+ with Angular CLI
-- 🧱 Clean Modular Architecture (Core, Shared, Features)
-- 🔌 REST API Integration using `HttpClient`
-- 🛡️ Route Guards & Interceptors
-- 🎨 SCSS Styling
-- 🧪 Jasmine + Karma Unit Testing
-- 🔍 Linting with ESLint + Prettier
-- 🚀 Optimized Production Builds
-- 🌍 Environment Configuration Support
+### 🧭 Frontend
+
+- Angular 17 (Standalone Components, Signals)
+- Angular Router & Guards
+- RxJS
+- SCSS / Tailwind CSS
+- JWT Authentication
+- Angular Material / PrimeNG (UI)
+
+### 🧰 Backend
+
+- .NET 8 Web API
+- Entity Framework Core 8
+- SQL Server / SQLite
+- Clean Architecture (API, Application, Domain, Infrastructure)
+- JWT Auth & Role-Based Authorization
+- FluentValidation
+- Swagger for API Documentation
 
 ---
 
-## ⚙️ Installation
+## 📁 Project Structure
+
+### 🔹 Frontend (`/client`)
+
+
+
+---
+
+## 🧪 Features
+
+- 📚 Book Management (CRUD)
+- 👤 User & Role Management
+- 🔐 Secure Authentication (JWT)
+- 📖 Book Issue & Return
+- 📅 Borrowing History & Logs
+- 📊 Dashboard with Metrics
+- 🔍 Search, Filter & Pagination
+- 📄 API Documentation via Swagger
+- 🌐 Responsive & Modern UI
+
+---
+
+## ⚙️ Getting Started
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v16+)
-- [Angular CLI](https://angular.io/cli)
+- Node.js (v18+)
+- Angular CLI
+- .NET 8 SDK
+- SQL Server / SQLite
 
-### Getting Started
+---
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+## 🔧 Backend Setup
 
-# Navigate to the project directory
-cd your-repo-name
+cd server/LibraryManagement.API
 
-# Install dependencies
+# Apply EF Core migrations
+dotnet ef database update
+
+# Run the API
+dotnet run
+
+---
+
+## 🌐 Frontend Setup
+
+### Prerequisites
+
+cd client
 npm install
-
-# Run the application
 ng serve
 
+---
+
+
+### 📥 Clone the Repository
+
+```bash
+git clone https://github.com/PanhaPhin/Library-Management-System.git
+cd library-management-system
 
 
 
+---
 
+Let me know if you want to:
+- Add badges (e.g., build passing, license)
+- Include screenshots or diagrams
+- Generate Swagger or Postman collections
+- Write Docker support or GitHub Actions
+
+Just say the word and I’ll hook you up like a pro 👨‍💻✨
